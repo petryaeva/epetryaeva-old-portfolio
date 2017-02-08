@@ -1,6 +1,5 @@
 @mixin font-control($fontSize, $lineHeight, $fontWeight) {
-  font-family: "PT Sans", Arrow, sans-serif;
-  text-transform: uppercase;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: $fontSize;
   line-height: $lineHeight;
   font-weight: $fontWeight;

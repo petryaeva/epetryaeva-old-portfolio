@@ -4,9 +4,9 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/petryaeva/petrek.github.io.git"
+    "url": "https://github.com/petryaeva/petrek.git"
   },
-  "homepage": "https://github.com/petryaeva/petrek.github.io.git",
+  "homepage": "https://github.com/petryaeva/petrek.git",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "0.1.x",
     "autoprefixer": "6.5.3",
