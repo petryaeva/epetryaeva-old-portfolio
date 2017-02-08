@@ -11,7 +11,6 @@
   box-sizing: border-box;
 }
 html {
-    color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -28,12 +27,7 @@ img {
   height: 100%;
 }
 h1 {
-	font-size: 18px;
-	line-height: 26px;
-	font-weight: bold;
-	color: #000;
-	text-align: center;
-	text-transform: uppercase;
+
 }
 fieldset {
     border: 0;
@@ -41,7 +35,7 @@ fieldset {
     padding: 0;
 }
 .hidden {
-    display: none !important;
+    display: none;
 }
 .visuallyhidden {
     border: 0;
@@ -65,12 +59,14 @@ fieldset {
 .invisible {
     visibility: hidden;
 }
-#pmOverlay {
-    display: block;
-    position: absolute;
-    top: -61px !important;
-    width: 100%;
-    left: auto;
-    text-align: center !important;
-    opacity: 0.5;
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #0072ba;
+    border-bottom: 1px solid rgba(0,114,186,.25);
+    &:hover {
+      color: #006983;
+      border-bottom: 1px solid rgba(0,105,131,.25);
+      text-decoration: none;
+    }
 }
