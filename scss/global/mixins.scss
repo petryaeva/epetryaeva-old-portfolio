@@ -8,12 +8,20 @@
 @mixin container() {
   width: 320px;
 
+  @media #{$tablet-small-width} {
+    width: 480px;
+    padding: 0 15px 15px;
+  }
   @media #{$tablet-width} {
     width: 768px;
+    padding: 0 20px 20px;
   }
-
+  @media #{$desktop-middle-width} {
+    width: 1024px;
+  }
   @media #{$desktop-width} {
     width: 1200px;
+    padding: 0 32px 32px;
   }
 }
 

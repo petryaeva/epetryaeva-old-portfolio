@@ -1,4 +1,6 @@
+$tablet-small-width: #{(min-width: 480px)};
 $tablet-width: #{(min-width: 768px)};
+$desktop-middle-width: #{(min-width: 1024px)};
 $desktop-width: #{(min-width: 1200px)};
 $retina: #{(min-resolution: 144dpi), (min-resolution: 1.5dppx)};
 $blue: #81b3d2;
